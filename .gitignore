@@ -31,3 +31,44 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# --- web-messenger additions ---
+
+# Node / JS
+node_modules/
+.pnpm-store/
+.npm/
+yarn-error.log
+
+# env variations (keep .env.example)
+.env.*
+!.env.example
+
+# build / coverage
+dist/
+build/
+.next/
+out/
+coverage/
+
+# logs
+*.log
+logs/
+
+# local data
+*.sqlite
+*.sqlite3
+*.db
+data/
+uploads/
+
+# caches
+.cache/
+.turbo/
+.eslintcache
+
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
